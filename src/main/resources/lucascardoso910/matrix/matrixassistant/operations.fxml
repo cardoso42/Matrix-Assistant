@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lucascardoso910.matrix.matrixassistant.OperationsController">
+   <children>
+      <Pane layoutX="561.0" layoutY="169.0" prefHeight="356.0" prefWidth="385.0">
+         <children>
+            <ListView fx:id="history" layoutY="1.0" prefHeight="355.0" prefWidth="385.0" />
+         </children>
+      </Pane>
+      <Pane layoutX="561.0" layoutY="28.0" prefHeight="127.0" prefWidth="385.0">
+         <children>
+            <Button fx:id="multRowBtn" mnemonicParsing="false" onAction="#multRow" prefHeight="25.0" prefWidth="385.0" text="Multiply row" />
+            <Button fx:id="addMultRowBtn" layoutY="50.0" mnemonicParsing="false" onAction="#addMultRow" prefHeight="25.0" prefWidth="385.0" text="Add by multiple of row" />
+            <Button fx:id="switchRowBtn" layoutY="100.0" mnemonicParsing="false" onAction="#switchRow" prefHeight="25.0" prefWidth="385.0" text="Switch rows" />
+            <Button fx:id="divRowBtn" layoutY="25.0" mnemonicParsing="false" onAction="#divRow" prefHeight="25.0" prefWidth="385.0" text="Divide row" />
+            <Button fx:id="addDivRowBtn" layoutY="75.0" mnemonicParsing="false" onAction="#addDivRow" prefHeight="25.0" prefWidth="385.0" text="Add by division of row" />
+         </children>
+      </Pane>
+      <Pane layoutX="23.0" layoutY="16.0" prefHeight="508.0" prefWidth="515.0">
+         <children>
+            <Label fx:id="defaultLabel" layoutX="233.0" layoutY="242.0" maxHeight="25.0" maxWidth="50.0" minHeight="25.0" minWidth="50.0" prefHeight="25.0" prefWidth="50.0" text="Label" />
+            <Label fx:id="minValueX" layoutX="14.0" layoutY="242.0" maxHeight="25.0" maxWidth="50.0" minHeight="25.0" minWidth="50.0" prefHeight="25.0" prefWidth="50.0" text="Label" />
+            <Label fx:id="minValueY" layoutX="233.0" layoutY="14.0" maxHeight="25.0" maxWidth="50.0" minHeight="25.0" minWidth="50.0" prefHeight="25.0" prefWidth="50.0" text="Label" />
+            <Label fx:id="maxValueX" layoutX="501.0" layoutY="242.0" maxHeight="25.0" maxWidth="50.0" minHeight="25.0" minWidth="50.0" prefHeight="25.0" prefWidth="50.0" text="Label" />
+            <Label fx:id="maxValueY" layoutX="233.0" layoutY="494.0" maxHeight="25.0" maxWidth="50.0" minHeight="25.0" minWidth="50.0" prefHeight="25.0" prefWidth="50.0" text="Label" />
+         </children>
+      </Pane>
+   </children>
+</Pane>

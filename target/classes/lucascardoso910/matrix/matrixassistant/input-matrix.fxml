@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lucascardoso910.matrix.matrixassistant.InputController">
+   <children>
+      <Label fx:id="welcomeText" layoutX="131.0" layoutY="23.0" prefHeight="50.0" prefWidth="700.0" text="Welcome to the Matrix Assistant!" textFill="RED">
+         <font>
+            <Font size="42.0" />
+         </font>
+      </Label>
+      <Label layoutX="339.0" layoutY="97.0" text="Created matrix with x rows and y columns!" />
+      <Label layoutX="373.0" layoutY="115.0" text="Please, now insert its values:" />
+      <Button fx:id="readyBtn" layoutX="448.0" layoutY="481.0" mnemonicParsing="false" onAction="#switchToOperations" text="Ready!" />
+      <TextField fx:id="minValueX" layoutX="131.0" layoutY="283.0" maxHeight="25.0" maxWidth="50.0" minHeight="25.0" minWidth="50.0" prefHeight="25.0" prefWidth="50.0" />
+      <TextField fx:id="minValueY" layoutX="456.0" layoutY="158.0" maxHeight="25.0" maxWidth="50.0" minHeight="25.0" minWidth="50.0" prefHeight="25.0" prefWidth="50.0" />
+      <TextField fx:id="defaultInput" layoutX="456.0" layoutY="283.0" maxHeight="25.0" maxWidth="50.0" minHeight="25.0" minWidth="50.0" prefHeight="25.0" prefWidth="50.0" />
+      <TextField fx:id="maxValueY" layoutX="456.0" layoutY="408.0" maxHeight="25.0" maxWidth="50.0" minHeight="25.0" minWidth="50.0" prefHeight="25.0" prefWidth="50.0" />
+      <TextField fx:id="maxValueX" layoutX="781.0" layoutY="283.0" maxHeight="25.0" maxWidth="50.0" minHeight="25.0" minWidth="50.0" prefHeight="25.0" prefWidth="50.0" />
+   </children>
+</AnchorPane>
